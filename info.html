@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Alef&subset=hebrew' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="includes/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.jquery.min.js"></script>
+	<script src="includes/function.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="includes/infoJson.js"></script>
+</head>
+<body>	
+	<div id="wrapper">
+		<header>
+			<a href="index.html" class="miniLogo flowerLogo"></a>
+			<a href="#" class="logo"></a>
+			<div id = "clear"> </div>
+		</header>
+		<main>
+			<form method="get" id="search">
+  				<input name="q" type="text" size="40" placeholder="חפש צמח...">
+			</form>
+			<section class="infoHead">
+				<h1 class = "pageH"></h1>
+				<hr class="shortLine">
+				<a href="edit.html" class="edit"> </a>
+				<a href = "findCity.html" class = "find"> מצא חנות <br> לרכישת הצמח </a>
+				<div class="clear"> </div>
+			</section>
+			
+			 <!-- Swiper -->
+		    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide"><section class="infoImg">
+		            </section>
+		            	
+		            </div>
+		            <div class="swiper-slide" id="hi">
+			            <section class="infoContent"> 
+							<h3> מידע כללי </h3>
+							<span class = "underlined"> מיון מדעי </span>
+							<p>			
+								ממלכה: <span class="kingdom"></span><br>
+								מערכה: <span class="division"></span><br>
+								מחלקה: <span class="class1"></span><br>
+								סידרה: <span class="set"></span><br>
+								משפחה: <span class="family"></span><br>
+								שם מדעי: <span class="sName"></span><br>
+							</p>
+							<br>
+							<p class="information"></p>
+						</section>
+					</div>
+		            <div class="swiper-slide">
+			            <section class="infoContent"> 
+							<h3> הגדרה בוטנית </h3>
+							<p id = "botanic"> </p>
+						</section>
+					</div>
+		            <div class="swiper-slide">
+			            <section class="infoContent" > 
+							<h3> תרופות סבתא </h3>
+							<p id = "medi1"></p>
+						</section>
+					</div>
+		            <div class="swiper-slide">
+			            <section class="infoContent"> 
+							<h3> צמחי נוי </h3>
+							<p id = "orna"></p>
+						</section>
+					</div>
+		        </div>
+		    </div>
+			<section class="info" id="ff">
+				<ul>
+					<li><a href="#" id = "l1" class="leaf1">צמחי נוי</a></li>	
+					<li><a href="#" id = "l2" class="leaf1">תרופות סבתא</a></li>
+					<li><a href="#" id = "l3" class="leaf1">הגדרה בוטנית</a></li>
+					<li><a href="#" id = "l4" class="leaf1">מידע כללי</a></li>
+				</ul>
+				<div id = "clear"> </div>	
+			</section>
+		</main>
+		
+		<nav>
+			<ul>
+				<li><a href="#" id="settings"></a> הגדרות </li>
+				<li><a href="medicine.html" id="medicine"></a> תרופות סבתא</li>
+				<li><a href="#" id="flower"></a>צמחי נוי</li>
+				<li><a href="#" id="wiki"></a>ויקיצמח</li>	
+			</ul>
+			<div id = "clear"> </div>
+		</nav>
+		
+	</div>
+	 
+	 <!-- Swiper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+      
+</body>
+</html>

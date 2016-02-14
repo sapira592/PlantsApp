@@ -1,0 +1,17 @@
+{
+	"headline": "בעיות עיכול",
+	"plants": [
+			{
+				"id": "pic1",
+				"pName": "מרווה",
+				"url": "images/marva1.gif",
+				"href": "info.html?a=3"
+			},
+			{
+				"id": "pic2",
+				"pName": "קמומיל",
+				"url": "images/kamomil.jpg",
+				"href": "#"
+			}	
+	]	
+}

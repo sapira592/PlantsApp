@@ -1,0 +1,51 @@
+{
+	"headline": "תרופות סבתא",
+	"url": "category.html",
+	"categories": [
+			{
+				"id": 1,
+				"icon": "teath",
+				"text": "כאבי שיניים"
+			},
+			{
+				"id": 2,
+				"icon": "fever",
+				"text": "חום וכאבים"
+			},
+			{
+				"id": 3,
+				"icon": "heart",
+				"text": "לחץ דם"
+			},
+			{
+				"id": 4,
+				"icon": "stomach",
+				"text": "בעיות עיכול"
+			},
+			{
+				"id": 5,
+				"icon": "ears",
+				"text": "דלקת אוזניים"
+			},
+			{
+				"id": 6,
+				"icon": "kidney",
+				"text": "אבנים בכליות"
+			},
+			{
+				"id": 7,
+				"icon": "throat",
+				"text": "כאבי גרון"
+			},
+			{
+				"id": 8,
+				"icon": "calcum",
+				"text": "בריחת סידן"
+			},
+			{
+				"id": 9,
+				"icon": "eye",
+				"text": "דלקת עיניים"
+			}
+	]	
+}
